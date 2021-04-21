@@ -1,0 +1,88 @@
+body {
+  margin: 0rem;
+}
+.wrapper {
+  margin: 0 300px 0 300px;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+.container_left {
+  width: 400px;
+}
+.container_right {
+  width: 400px;
+  position: relative;
+}
+z .wether {
+  display: flex;
+  justify-content: space-between;
+  height: 300px;
+  width: 100%;
+
+  position: absolute;
+  top: 40%;
+  margin-top: 50px;
+}
+.description {
+  /* height: 50%;
+    width: 50%; */
+  font-size: 32px;
+  font-weight: bold;
+  /* position: absolute;
+    top: 35%; */
+  width: 50%;
+}
+.temperature {
+  font-size: 32px;
+  font-weight: bold;
+  width: 50%;
+}
+#city,
+.now_wether,
+.temperature,
+.description,
+.now_date {
+  text-align: center;
+}
+
+.now_date {
+  margin-top: 40px;
+  font-size: 32px;
+}
+#forecast {
+  width: 100%;
+}
+
+#forecast .icon {
+  width: 48px;
+  height: 38px;
+}
+#back-ground {
+  height: 498px;
+  padding: 0rem;
+}
+.Clouds {
+  position: relative;
+  padding: 0.1em 0.5em;
+  background: -webkit-linear-gradient(to right, rgb(80, 80, 80), transparent);
+  background: linear-gradient(to right, rgb(80, 80, 80), transparent);
+  color: #ffffff;
+}
+.Rain {
+  position: relative;
+  padding: 0.1em 0.5em;
+  background: -webkit-linear-gradient(to right, rgb(0, 56, 137), transparent);
+  background: linear-gradient(to right, rgb(0, 56, 137), transparent);
+  color: #ffffff;
+}
+.Clear {
+  position: relative;
+  padding: 0.1em 0.5em;
+  background: -webkit-linear-gradient(to right, rgb(0, 100, 250), transparent);
+  background: linear-gradient(to right, rgb(0, 100, 250), transparent);
+  color: #ffffff;
+}
